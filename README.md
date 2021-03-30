@@ -13,17 +13,25 @@ We also keep the previous version of the transform, Transform_V1, in the file vf
 ### Building on Ubuntu
 
 Transform360 is implemented in C++ and is invoked by ffmpeg video filter. To build and use Transform360, follow these steps (special thanks to https://github.com/danrossi):
-
+0. Install OpenCV
+```sh
+git clone --branch 2.4 https://github.com/opencv/opencv.git
+mkdir opencv/build && cd opencv/build
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+make
+sudo make install
+sudo ldconfig -v
+```
 1. Checkout `transform360`
 2. Checkout `ffmpeg` source
 3. Install ffmpeg, dev versions of openCV and codec libraries that you need, e.g.
-```
+```sh
 sudo apt-get install ffmpeg
-sudo apt-get install libopencv-dev
+#sudo apt-get install libopencv-dev
 sudo apt-get install nasm libxvidcore-dev libass-dev libfdk-aac-dev libvpx-dev libx264-dev
 ```
 4. Build and install transform360 in `Transform360` folder:
-```
+```sh
 cmake ./
 make
 sudo make install
