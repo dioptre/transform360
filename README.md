@@ -10,8 +10,12 @@ We also keep the previous version of the transform, Transform_V1, in the file vf
 
 ## To Build And Use Transform360
 
-### Building on Ubuntu
 
+### Building on Ubuntu
+#### Building from Release Branch
+Checkout the https://github.com/dioptre/transform360/tree/release-4.2.1 branch which includes ffmpeg-4.2.1, and transform360 dependencies, and inline code updates. You may want to build from the release branch or from your own ffmpeg source code with the following steps.
+
+#### Build Steps
 Transform360 is implemented in C++ and is invoked by ffmpeg video filter. To build and use Transform360, follow these steps (special thanks to https://github.com/danrossi):
 0. Install OpenCV
 ```sh
