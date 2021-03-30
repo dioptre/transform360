@@ -1,42 +1,40 @@
-OpenCV/
-opencv/
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-install_manifest.txt
-Makefile
-
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.o
+*.o.*
+*.d
+*.def
+*.dll
+*.dylib
 *.exe
-*.out
-*.app
+*.exp
+*.gcda
+*.gcno
+*.h.c
+*.ilk
+*.lib
+*.pc
+*.pdb
+*.so
+*.so.*
+*.swp
+*.ver
+*.version
+*.ptx
+*.ptx.c
+*_g
+\#*
+.\#*
+/.config
+/.version
+/ffmpeg
+/ffplay
+/ffprobe
+/config.asm
+/config.h
+/coverage.info
+/avversion.h
+/lcov/
+/src
+/mapfile
+/tools/python/__pycache__/
 

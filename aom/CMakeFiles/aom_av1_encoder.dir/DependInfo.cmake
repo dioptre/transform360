@@ -1,0 +1,97 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/av1_cx_iface.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/av1_cx_iface.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/aq_complexity.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_complexity.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/aq_cyclicrefresh.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_cyclicrefresh.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/aq_variance.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_variance.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/av1_fwd_txfm1d.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_fwd_txfm1d.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/av1_fwd_txfm2d.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_fwd_txfm2d.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/av1_noise_estimate.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_noise_estimate.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/av1_quantize.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_quantize.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/bitstream.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/bitstream.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/cnn.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/cnn.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/compound_type.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/compound_type.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/context_tree.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/context_tree.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/corner_detect.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/corner_detect.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/corner_match.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/corner_match.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/cost.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/cost.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/dwt.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/dwt.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encode_strategy.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encode_strategy.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encodeframe.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodeframe.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encodeframe_utils.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodeframe_utils.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encodemb.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodemb.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encodemv.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodemv.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encoder.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encoder.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encoder_utils.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encoder_utils.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/encodetxb.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodetxb.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/ethread.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ethread.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/extend.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/extend.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/firstpass.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/firstpass.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/global_motion.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/global_motion.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/global_motion_facade.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/global_motion_facade.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/gop_structure.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/gop_structure.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/hash.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hash.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/hash_motion.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hash_motion.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/hybrid_fwd_txfm.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hybrid_fwd_txfm.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/interp_search.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/interp_search.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/intra_mode_search.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/intra_mode_search.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/level.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/level.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/lookahead.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/lookahead.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/mcomp.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/mcomp.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/ml.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ml.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/motion_search_facade.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/motion_search_facade.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/mv_prec.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/mv_prec.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/nonrd_pickmode.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/nonrd_pickmode.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/palette.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/palette.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/partition_search.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/partition_search.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/partition_strategy.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/partition_strategy.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/pass2_strategy.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pass2_strategy.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/pickcdef.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pickcdef.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/picklpf.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/picklpf.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/pickrst.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pickrst.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/ransac.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ransac.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/ratectrl.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ratectrl.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/rd.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/rd.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/rdopt.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/rdopt.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/reconinter_enc.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/reconinter_enc.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/segmentation.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/segmentation.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/speed_features.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/speed_features.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/superres_scale.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/superres_scale.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/svc_layercontext.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/svc_layercontext.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/temporal_filter.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/temporal_filter.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/tokenize.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tokenize.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/tpl_model.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tpl_model.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/tx_search.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tx_search.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/var_based_part.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/var_based_part.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/av1/encoder/wedge_utils.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/av1/encoder/wedge_utils.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/third_party/fastfeat/fast.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/fast.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/third_party/fastfeat/fast_9.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/fast_9.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/third_party/fastfeat/nonmax.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/nonmax.c.o"
+  "/home/a/Documents/ffmpeg-4.2.1/aom/aom/third_party/vector/vector.c" "/home/a/Documents/ffmpeg-4.2.1/aom/CMakeFiles/aom_av1_encoder.dir/third_party/vector/vector.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "aom/third_party/googletest/src/googletest/include"
+  "aom/third_party/googletest/src/googletest"
+  "aom"
+  "."
+  "aom/apps"
+  "aom/common"
+  "aom/examples"
+  "aom/stats"
+  "aom/third_party/libyuv/include"
+  "aom/third_party/libwebm"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

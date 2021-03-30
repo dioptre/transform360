@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/a/Documents/ffmpeg-4.2.1/aom/gen_src/aom_av1_dummy.c
+
+/home/a/Documents/ffmpeg-4.2.1/aom/gen_src/aom_dsp_dummy.c
+

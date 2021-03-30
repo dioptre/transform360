@@ -1,0 +1,1 @@
+config:x86:x86_64:generic:linux:gcc 8 (Debian 8.3.0-6):--prefix=/usr/local/transform/ffmpeg --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libopencv --extra-libs='-lTransform360 -lstdc++'
