@@ -89,12 +89,12 @@ make
 
 ### Running
 
-Check out the options for the filter by running `ffmpeg -h filter=transform360`.
+Check out the options for the filter by running `./ffmpeg -h filter=transform360`.
 
 A typical example looks something like:
 
 ``` sh
-ffmpeg -i input.mp4
+./ffmpeg -i input.mp4
     -vf transform360="input_stereo_format=MONO
     :cube_edge_length=512
     :interpolation_alg=cubic
@@ -125,12 +125,12 @@ Transform is implemented as an ffmpeg video filter. To build Transform, follow t
 
 ### Running
 
-Check out the options for the filter by running `ffmpeg -h filter=transform_v1`.
+Check out the options for the filter by running `./ffmpeg -h filter=transform_v1`.
 
 A typical example looks something like:
 
 ``` sh
-ffmpeg -i input.mp4
+./ffmpeg -i input.mp4
     -vf transform_v1="input_stereo_format=MONO
     :w_subdivisions=4
     :h_subdivisions=4
