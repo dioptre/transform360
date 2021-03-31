@@ -75,12 +75,11 @@ to
 9. Configure ffmpeg in the source folder:
 
 ```sh
-./configure --prefix=/usr/local/transform/ffmpeg  --enable-shared --enable-libxvid --enable-libvorbis --enable-libtheora --enable-libmp3lame  --enable-nonfree --enable-libfreetype --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --extra-libs='-lTransform360 -lstdc++' --enable-debug --enable-libopencv
+./configure --prefix=/usr/local/transform/ffmpeg  --enable-shared --enable-libxvid --enable-libvorbis --enable-libtheora --enable-libmp3lame  --enable-nonfree --enable-libfreetype --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libx265 --extra-libs='-lTransform360 -lstdc++' --enable-debug --enable-libopencv
 ```
-or
+or replace --enable-libopencv with
 ```sh
-./configure --prefix=/usr/local/transform/ffmpeg  --enable-shared --enable-libxvid --enable-libvorbis --enable-libtheora --enable-libmp3lame  --enable-nonfree --enable-libfreetype --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --extra-libs='-lTransform360 -lstdc++' --enable-debug --extra-ldflags="-L/usr/local/lib" --extra-cflags="-l$PWD/../opencv/include/opencv"
-
+--extra-ldflags="-L/usr/local/lib" --extra-cflags="-l$PWD/../opencv/include/opencv"
 ```
 10. make ffmpeg
 
