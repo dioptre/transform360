@@ -1,5 +1,7 @@
 # Transform360
 
+## THIS IS ACTIVELY BEING UPDATED
+
 Transform360 is a video/image filter that transforms a 360 video from one projection to another. Usually, the input projection is equirectangular and the output projection is cubemap.
 We also keep the previous version of the transform, Transform_V1, in the file vf_transform_v1.c
 
@@ -75,7 +77,7 @@ to
 9. Configure ffmpeg in the source folder:
 
 ```sh
-./configure --prefix=/usr/local/transform/ffmpeg --enable-libxvid --enable-libvorbis --enable-libtheora --enable-libmp3lame  --enable-nonfree --enable-libfreetype --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libx265 --extra-libs='-lTransform360 -lstdc++' --enable-debug --enable-libopencv
+./configure --prefix=/usr/local/transform/ffmpeg --enable-libvpx --enable-vp9-highbitdept --enable-libxvid --enable-libvorbis --enable-libtheora --enable-libmp3lame  --enable-nonfree --enable-libfreetype --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libx265 --extra-libs='-lTransform360 -lstdc++' --enable-debug --enable-libopencv
 ```
 or replace --enable-libopencv with
 ```sh
