@@ -19,9 +19,8 @@ Checkout the https://github.com/dioptre/transform360/tree/release-4.2.1 branch w
 Transform360 is implemented in C++ and is invoked by ffmpeg video filter. To build and use Transform360, follow these steps (special thanks to https://github.com/danrossi):
 0. Install OpenCV
 ```sh
-git clone --branch 2.4 https://github.com/opencv/opencv.git
 mkdir opencv/build && cd opencv/build
-cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D ENABLE_PRECOMPILED_HEADERS=OFF ..
 make
 sudo make install
 sudo ldconfig -v
@@ -75,10 +74,14 @@ to
 
 9. Configure ffmpeg in the source folder:
 
+```sh
+./configure --prefix=/usr/local/transform/ffmpeg --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libopencv --extra-libs='-lTransform360 -lstdc++' --enable-debug
 ```
-./configure --prefix=/usr/local/transform/ffmpeg --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --enable-libopencv --extra-libs='-lTransform360 -lstdc++'
-```
+or
+```sh
+./configure --prefix=/usr/local/transform/ffmpeg --enable-gpl --enable-nonfree --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libvpx --enable-libx264 --enable-libxvid --extra-libs='-lTransform360 -lstdc++' --enable-debug --extra-ldflags="-L/usr/local/lib" --extra-cflags="-l$PWD/../opencv/include/opencv"
 
+```
 10. make ffmpeg
 
 ```

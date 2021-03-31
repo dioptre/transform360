@@ -1,11 +1,11 @@
-OpenCV/
-opencv/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 install_manifest.txt
 Makefile
-
+x264-snapshot*
+*.mp4
+*.mkv
 
 # Prerequisites
 *.d
