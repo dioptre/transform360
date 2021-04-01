@@ -45,7 +45,7 @@ make
 ```
 Then use local binary with `./ffmpeg` 
 
-6. Help/FAQ
+#### Help/FAQ
 * Try and repair opencv conflicts with shared library on your system by deleting your installed versions of opencv or replacing the compiler options:
 ```sh
 #optionally replace --enable-libopencv with
