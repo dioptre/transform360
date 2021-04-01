@@ -1,9 +1,8 @@
 # Transform360
 
-Transform360 is a video/image filter that transforms a 360 video from one projection to another. Usually, the input projection is equirectangular and the output projection is cubemap.
+Transform360 is a video/image filter that transforms a 360 video from one projection to another. Usually, the input projection is equirectangular and the output projection is cubemap. This is a fork of https://github.com/facebook/transform360 that actually builds and works.
 
 ## To Build And Use Transform360
-
 
 ### Building on Ubuntu/Debian
 
