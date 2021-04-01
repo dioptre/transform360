@@ -11,7 +11,11 @@ Transform360 is a video/image filter that transforms a 360 video from one projec
 ```sh
 git clone git@github.com:dioptre/transform360.git --recurse
 ```
-2. Install opencv
+2. Install dependencies (see https://github.com/dioptre/transform360/blob/master/scripts/install-deps.sh for more if you need)
+```sh
+sudo apt-get install nasm libxvidcore-dev libass-dev libfdk-aac-dev libvpx-dev libx264-dev
+```
+3. Install opencv
 ```sh
 cd opencv
 git am ../scripts/opencv.3.1.0.92387b1e.patch
@@ -21,10 +25,6 @@ make
 sudo make install
 sudo ldconfig -v
 cd ../..
-```
-3. Install dependencies (see https://github.com/dioptre/transform360/blob/master/scripts/install-deps.sh for more if you need)
-```sh
-sudo apt-get install nasm libxvidcore-dev libass-dev libfdk-aac-dev libvpx-dev libx264-dev
 ```
 4. Build and install transform360:
 ```sh
