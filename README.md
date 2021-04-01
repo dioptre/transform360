@@ -7,7 +7,6 @@ Transform360 is a video/image filter that transforms a 360 video from one projec
 ### Building on Ubuntu/Debian
 
 #### Build Steps
-Transform360 is implemented in C++ and is invoked by ffmpeg video filter. To build and use Transform360, follow these steps (special thanks to https://github.com/danrossi):
 1. Download repository
 ```sh
 git clone git@github.com:dioptre/transform360.git --recurse
@@ -23,7 +22,7 @@ sudo make install
 sudo ldconfig -v
 cd ../..
 ```
-3. Install dependencies (see scripts/install-deps.sh for more if you need)
+3. Install dependencies (see https://github.com/dioptre/transform360/blob/master/scripts/install-deps.sh for more if you need)
 ```sh
 sudo apt-get install nasm libxvidcore-dev libass-dev libfdk-aac-dev libvpx-dev libx264-dev
 ```
