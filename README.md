@@ -7,7 +7,7 @@ Transform360 is a video/image filter that transforms a 360 video from one projec
 ### Building on Ubuntu/Debian
 
 #### Build Steps
-1. Download repository
+1. Download repository (note this fetches required opencv and ffmpeg source trees)
 ```sh
 git clone git@github.com:dioptre/transform360.git --recurse
 ```
