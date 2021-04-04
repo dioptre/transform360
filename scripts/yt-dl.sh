@@ -33,4 +33,5 @@
 #./ffmpeg -i ../nature.mkv -vf transform360="input_stereo_format=TB:w=1920:h=1080:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../nature.mp4
 #./ffmpeg -i ../house.mkv -vf transform360="input_stereo_format=TB:w=2560:h=1440:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../house.mp4
 #ffmpeg -i nature.mkv -y nature.mp4
+#ffmpeg -i batman.mp4 -vf scale=1920:1080 batman_1920.mp4
 
