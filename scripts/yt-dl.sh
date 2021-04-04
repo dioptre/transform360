@@ -29,6 +29,8 @@
 #youtube-dl --merge-output-format mkv --user-agent '' -f 315+251 --exec 'mv {} ../race.mkv' bxQ_3zWeH8A
 #3840x2160
 #youtube-dl --merge-output-format mkv --user-agent '' -f 313+251 --exec 'mv {} ../batman.mkv' k8vVrr4Q9VA
-#../ffmpeg -i ../notre.mkv -vf transform360="input_stereo_format=TB:w=3840:h=2160:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../notre.mp4
-#../ffmpeg -i ../nature.mkv -vf transform360="input_stereo_format=TB:w=1920:h=1080:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../nature.mp4
+#./ffmpeg -i ../notre.mkv -vf transform360="input_stereo_format=TB:w=3840:h=2160:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../notre.mp4
+#./ffmpeg -i ../nature.mkv -vf transform360="input_stereo_format=TB:w=1920:h=1080:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../nature.mp4
+#./ffmpeg -i ../house.mkv -vf transform360="input_stereo_format=TB:w=2560:h=1440:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../house.mp4
+#ffmpeg -i nature.mkv -y nature.mp4
 
