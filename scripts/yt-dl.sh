@@ -18,7 +18,7 @@
 #2560x1440
 #youtube-dl --merge-output-format mkv --user-agent '' -f 308+251 --exec 'mv {} ../house.mkv' bqW2qm02jwI
 #5120x4320
-#youtube-dl --merge-output-format mkv --user-agent '' -f 571+251 --exec 'mv {} ../house.mkv' bqW2qm02jwI
+#youtube-dl --merge-output-format mkv --user-agent '' -f 571+251 --exec 'mv {} ../house5.mkv' bqW2qm02jwI
 #3840x2048
 #youtube-dl --merge-output-format mkv --user-agent '' -f 313+251 --exec 'mv {} ../nature.mkv' xskH6VEWV28
 #1920x1080
@@ -32,8 +32,10 @@
 #./ffmpeg -i ../notre.mkv -vf transform360="input_stereo_format=TB:w=3840:h=2160:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../notre.mp4
 #./ffmpeg -i ../nature.mkv -vf transform360="input_stereo_format=TB:w=1920:h=1080:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../nature.mp4
 #./ffmpeg -i ../house.mkv -vf transform360="input_stereo_format=TB:w=2560:h=1440:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../house.mp4
+#./ffmpeg -i ../house5.mkv -vf transform360="input_format_stereo=TB:w=5120:h=4320:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../house5.mp4
 #ffmpeg -i nature.mkv -y nature.mp4
 #ffmpeg -i batman.mp4 -vf scale=1920:1080 batman_1920.mp4
 #ffmpeg -i nature.mp4 -ss 0 -to 322 nature_truncated.mp4
 #ffmpeg -i house.mp4 -vf scale=1920:1080 house_1920.mp4
+#ffmpeg -i house5.mkv -ss 60 -to 120 house5.mp4
 
