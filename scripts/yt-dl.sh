@@ -39,5 +39,4 @@
 #ffmpeg -i house.mp4 -vf scale=1920:1080 house_1920.mp4
 #ffmpeg -i house5.mkv -ss 60 -to 120 house5.mp4
 #./ffmpeg -i ../house5.mp4 -vf transform360="input_stereo_format=TB:w=5120:h=4320:output_stereo_format=MONO:output_layout=EQUIRECT" -y ../house5mono.mp4
-
-
+#./ffmpeg -i ../house5.mp4 -vf transform360="input_stereo_format=TB:w=5120:h=4320:output_stereo_format=MONO" -y ../house5cubic.mp4
