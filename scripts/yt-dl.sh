@@ -45,4 +45,4 @@
 #./ffmpeg -i ../house5.mp4 -vf transform360="input_stereo_format=TB:cube_edge_length=512:output_stereo_format=MONO:output_layout=cubemap_32" -y ../house5cubic.mp4
 #./ffmpeg -i ../house5.mp4 -vf transform360="input_stereo_format=TB:cube_edge_length=512:output_stereo_format=MONO:output_layout=flat_fixed" -y ../house5flat.mp4
 #./ffmpeg -i ../house5.mp4 -vf transform360="input_stereo_format=TB:cube_edge_length=1080:output_layout=cubemap_32:output_stereo_format=MONO" -y ../house5cubic.mp4
-
+#ffmpeg -y -i ./house5cubic.mp4 -filter_complex "[0:v]crop='iw:ih/2:0:0'[vo];[0:v]crop='iw:ih/2:0:ih/2'[vf];[vo][vf]hstack[v]" -map '[v]' -an ./house5cub.mp4
