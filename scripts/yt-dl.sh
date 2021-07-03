@@ -49,3 +49,4 @@
 #ffmpeg -y -i ./house5cubic.mp4 -filter_complex "[0:v]crop='iw:ih/2:0:0'[vo];[0:v]crop='iw:ih/2:0:ih/2'[vf];[vo][vf]hstack[v]" -map '[v]' -map 0:a  ./house5cub3.mp4
 #ffmpeg -i WAVR_LogoAnim_06112_360Vid_FullLogo.mov -framerate 30 -r 30 -vcodec libx264 -crf 18 -preset ultrafast -pix_fmt yuv420p intro.mp4
 #ffmpeg -i house5.mkv -vf v360=equirect:c6x1 -ss 54 -to 56 -crf 18  output.mp4
+#ffmpeg -i iss.mp4 -vcodec libx264 -vf v360=in_stereo=tb:out_stereo=2d -crf 99 output.mp4
